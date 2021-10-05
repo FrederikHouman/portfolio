@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #212624;
+    font-family: cairo, arial, sans-serif;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/frederikbillede.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #212624c5;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    height: 8vh;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+}
+header a{
+    text-decoration: none;
+    color: #e3e2dfc2;
+    font-size: 26px;
+    padding: 10px 10px 10px 10px;
+    font-family: cairo, helvetica, sans-serif;
+}
+a:hover{
+    color: #E3E2DF;
+}
+nav{
+    height: 17vh;
+}
+header img{
+    opacity: 75%;
+    padding-top: 0.7vh;
+}
+header img:hover{
+    opacity: 100%;
+}
+h1{
+    font-size: 60px;
+    color: #E3E2DF;
+    font-family: komu-a, helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.h1text{
+    color: #131010;
+}
+main{
+    height: 55vh;
+    text-align: center;
+}
+footer{
+    height: 5vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.footerp{
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+    color: #E3E2DF;
+    font-family: cairo, helvetica, sans-serif;
+}
+
+/* Om Mig */
+
+.ommigtekst{
+    height: 450px;
+    width: 40vw;
+    justify-content: center;
+    padding-left: 30vw;
+}
+.navquestion{
+    color: black;
+}
+
+/* Portfolio */
+
+.h1word{
+    color: black;
+}
+.portfoliocontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 5vw;
+    padding-left: 7.5vw;
+    height: 25vh;
+    justify-content: space-between;
+    margin: 0;
+    position: absolute;
+    top: 14vh;
+
+}
+main a{
+    text-decoration: none;
+    color: #e3e2dfc2;
+    font-size: 20px;
+}
+.e-girls{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    position: center;
+    top: -4vh;
+    padding-right: 26.5vw;
+    padding-left: 25vw;
+    
+}
+.e-girls1{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 15px;
+}
+.e-girls1:hover{
+    -webkit-filter: grayscale(0%);
+    filter: 0%;
+}
+.portfooter{
+    padding-top: 70px;
+}
+
+/* Flow 1 */
+
+.flow-1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2vh;
+    padding-right: 21vw;
+    padding-left: 20vw;
+}
+.flow-1-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 15px;
+}
+.flow-1-img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: 0%;
+}
+.flow1footer{
+    padding-top: 50px;
+}
